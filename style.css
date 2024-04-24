@@ -1,0 +1,31 @@
+body{
+    /* background-image: url('https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2pvYjY4Ni0yODUtcC5wbmc.png'); */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: 100px 20px; */
+    background-size: contain;
+    background-attachment:fixed;
+  }
+  
+  .box1{
+    /* box-sizing: content-box */
+
+    /* position:absolute; */
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    height: 25vh;
+    width: 25vw;
+    border: 2px dotted rgb(255, 0, 0);
+}
+.box2{
+    
+    
+    
+      height: 10vh;
+      width: 10vw;
+      border: 2px solid black;
+
+  }
+
+  
