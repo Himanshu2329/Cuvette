@@ -2,6 +2,7 @@ body {
     background-color: #FFCD9E;
     /* height: 100vh; */
     margin: 0px;
+    
 }
 
 .section1 {
@@ -70,30 +71,30 @@ button {
     margin: 0px 0px 0px 14px;
     background: #282828;
     color: #FFFFFF;
-
-
-
 }
 
 form {
     width: 562px;
 }
-.heading2{
+
+.heading2 {
     font-family: Inter;
-font-size: 20px;
-font-weight: 800;
-line-height: 32px;
-text-align: left;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: left;
 
 }
-.Line{
+
+.Line {
     font-family: Inter;
-font-size: 16px;
-font-weight: 500;
-line-height: 25.6px;
-text-align: center;
-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    margin-left: 50px;
+    color: #FFFFFF;
 }
+
 span {
     display: inline-block;
     width: 495px;
@@ -108,25 +109,78 @@ span {
 #page-container {
     position: relative;
     min-height: 100vh;
-  }
-  
-  #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
-  }
-  
-  #footer {
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+#footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
     height: 298px;
-    background-color:#282828 ;
-  }
+    /* display: flex; */
+    background-color: #282828;
+}
 
-.container1 ul{
-    display: flex;
-    
+.container1 {
+    text-align: left;
+    margin: 30px 15vw;
+    padding-left: 50px;
+    padding-top: 10px;
+    display: inline-block;
+
 }
-.container2 li{
-    display: flex;
-    
+
+.container1 a {
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    flex-wrap: nowrap;
 }
+
+.container2 {
+    position: absolute;
+    right: 32em;
+    text-align: right;
+    display: inline-block;
+
+
+}
+
+h5 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container2 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+@media (max-width:1628px){
+    .section1{
+        position: relative;
+        left: 1px;
+    }
+    .section2 img{
+        position: relative;
+        left: 100px;
+    }
+}
+@media (max-width:1270){
+    .section2 img{
+        position: relative;
+        top: 500px;
+    }
+}
+
