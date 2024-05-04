@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+<style>
+    .container{
+        border: 2px solid red;
+        display: flex;
+        height: 80vh;
+        /* justify-content: center; */
+        align-items:center;
+        flex-wrap: wrap;
+        /* align-content: center; */
+        /* justify-content: space-between; */
+        flex-flow: row wrap;
+        /* row-gap: 2px; */
+        /* column-gap: 4px; */
+        /* gap:5px; */
+        gap:50px 15px
+
+
+        
+    }
+    .item{
+        /* flex-grow: 1; */
+        height:32px;
+        width: 32px;
+        background-color: red;
+        border:2px solid black;
+        /* margin:4px; */
+        /* box-shadow: 2px 2px 5px;  */
+
+    }
+    .order-1{
+        order: 1;
+    }
+    .order-2{
+        order: 2;
+    }
+    .order-3{
+        order: 3;
+    }
+    .order-4{
+        order: 4;
+    }
+    .order-100{
+        order: 100;
+    }
+    .item1{
+        /* flex-grow: 4; */
+        /* flex-shrink: 2; */
+        align-self: flex-end;
+    }
+</style>
+<body>
+    <main>
+        <div class="container">
+            <!-- <div class="item order-100">1</div> -->
+            <div class="item item1">1</div>
+            <div class="item order-2">2</div>
+            <div class="item order-3">3</div>
+            <div class="item order-4">4</div>
+            
+            <div class="item order-1">85</div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </main>
+</body>
+</html>
