@@ -43,3 +43,25 @@ btn.addEventListener('dblclick', function(){
 
 // Keyboard events
 
+document.addEventListener("keydown", function (evt) {
+    console.log("key down");
+    console.log(evt.key);
+    console.log(evt.code);
+  });
+  
+  //keyup
+  document.addEventListener("keyup", function (evt) {
+    console.log("key up");
+    console.log(evt.key);
+    console.log(evt.code);
+  });
+  
+  //keypress
+  document.addEventListener("keypress", function (evt) {
+    console.log("key press");
+    console.log(evt.key);
+    console.log(evt.code);
+  });
+  
+  
+  // keypress doesn't track non printable keys
