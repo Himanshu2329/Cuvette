@@ -35,3 +35,22 @@ do {
     console.log(a)
     b++
 } while (b<x);
+
+// for of Loops
+for (const iterator of "Himanshu") {
+    console.log(iterator);
+}
+
+// forin loops
+let object={
+    name:"Himanshu",
+    Role:"Programmer",
+    Company:"Google",
+    salary:5000000
+}
+
+object.salary=1000000000
+for (const key in object) {
+        const element = object[key];
+        console.log(key,element);
+}

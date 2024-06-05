@@ -1,5 +1,5 @@
 arr=[1,2,3,4,5,6]
-console.log(arr);
+// console.log(arr);
 
 var car={
     brand:"BMW",
@@ -53,7 +53,7 @@ var number=[12,21,5,1,2,77]
 var found=number.filter(function (x) {
     return x>10;
 })
-console.log(found);  
+// console.log(found);  
 
 
 // find the index of the element
@@ -68,9 +68,9 @@ console.log(found);
 // number.forEach(element => {
 //     console.log(element*2);
 // });
-// // OR
-// number.forEach(function(element){
-//     console.log(element);
+// OR
+// number.forEach(function(element,i){
+//     console.log(element,i);
 // });
 
 // Map Function
@@ -91,4 +91,37 @@ console.log(found);
 
 // unshift :- it is used to add element in the front of the array
 number.unshift(100);
-console.log(number);
+// console.log(number);
+
+var nos=[1,3,3,4,5,6,7,8]
+// nos.fill(2,2)
+nos.fill(5,1,4)
+// console.log(nos);
+
+
+var students=[{name:'S',age:2},{name:'A',age:3},{name:'N',age:4}]
+console.log(students[2].age)
+console.log(students[2]['age']);
+
+
+array = [1,2,3,4,5,6]
+array.forEach(element => {
+    console.log(element*10);
+});
+
+
+const month=['Jan','March','April',' June']
+month.splice(1,0,'Feb')
+console.log(month);
+
+console.log(month.indexOf('March'));
+
+var numbers=[10,20,30,40,50,20]
+var x=numbers.find(function (elememt) {
+    return elememt==20
+})
+// var x=numbers.findIndex(function (elememt) {
+//     return elememt==20
+// })
+console.log(x);
+console.log(numbers.lastIndexOf(20));
