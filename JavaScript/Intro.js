@@ -20,6 +20,7 @@ var student={
     }
 
 }
+let a = prompt("enter your number")
 // student.addres
 // student['name']
 // student[marks]

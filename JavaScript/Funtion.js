@@ -1,28 +1,19 @@
-// let u1 = sayHello('H')
-// let u2 = sayHello('P')
-// let u3 = sayHello('L')
-// console.log(u1, u2, u3);
-
-
-// funtion declaration
-// function sayHello(name1) {
-//     // console.log("Hello buddy ",name1);
-//     return "Hello bro ", name1
-// }
-
-function sayHello() {
-    // console.log("Hello buddy ",name1);
-    return "Hello bro "
+function nice(name) {
+    console.log("hey",name,"you're nice")
 }
 
-let add= function(a,b){
-    return a+b
-}
-a=9
-b=9
-console.log(add(a,b));
+nice("himanshu")
 
-function greet(hello){
-    hello();
+function sum(a,b,c=1) {
+    return a+b+c;
 }
-greet(sayHello)
+let a = sum(1,2)
+console.log(a);
+
+// Arrow Function
+
+const func1 = (x)=>{
+    console.log("i am an arrow function",x);
+}
+
+func1(23)
