@@ -65,3 +65,17 @@ document.addEventListener("keydown", function (evt) {
   
   
   // keypress doesn't track non printable keys
+
+  var parent = document.getElementById("parent");
+var child = document.getElementById("child");
+
+parent.addEventListener("mo useover", function () {
+  console.log("mousedone");
+});
+
+parent.addEventListener("click", function () {
+  console.log("parent clicked");
+});
+parent.addEventListener("click", function () {
+  console.log("child clicked");
+});
